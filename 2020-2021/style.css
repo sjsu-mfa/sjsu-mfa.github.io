@@ -10,6 +10,12 @@ body {
 }
 
 /*Nav Bar*/
+.topbar {
+  background-color: #F8E81A;
+  position: relative;
+  display: flex;
+}
+
 .topnav {
   background-color: #F8E81A;
   position: relative;
@@ -165,7 +171,8 @@ object {
 height: 50px;
 overflow: hidden;
 float: left;
-padding: 20px, 50px; 
+padding: 20px, 50px;
+  
 }
 
 
