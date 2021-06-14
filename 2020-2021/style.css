@@ -161,7 +161,11 @@ object {
   color: #000000;
 }
 
-
+.logo-image img{
+height: 50px;
+overflow: hidden;
+margin-top: -6px;
+}
 
 
 /*Responsive*/
