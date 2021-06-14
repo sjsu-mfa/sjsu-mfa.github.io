@@ -164,7 +164,8 @@ object {
 .logo-image img{
 height: 50px;
 overflow: hidden;
-margin-top: -6px;
+float: left;
+padding: 20px, 50px; 
 }
 
 
