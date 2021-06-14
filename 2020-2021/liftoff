@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lift Off - Catalogue</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="/">Home</a>
+      <a class="active" href="/liftoff"><i>Lift Off</i>&nbsp; Catalogue</a>
+      <a href="/infra-ordinary"><i>the infra-ordinary</i>&nbsp; Exhibition</a>
+    </div>
+    <div class="hero">
+      <img
+        src="https://cdn.glitch.com/26d05cf2-d5d0-4f46-a1a0-95aa126f293c%2FTheRelease-Wu-04%20-%20Kuan-Yi%20Wu.png?v=1623521281851"
+        width="100%"
+      />
+      <div class="hero-overlay">
+        <h1>
+          Liftoff Catalogue
+        </h1>
+      </div>
+      <p>
+        <i>The Release</i> 無量 | <i>Collective Consciousness</i>, UGLYKIKI,
+        2021 Screenshot from
+        <a
+          href="https://youtube.com/playlist?list=PLh3T8YJCbyBs7a2mR2Ty3izUc6s-0r8BH"
+          >video</a
+        >. © UGLYKIKI
+      </p>
+    </div>
+    <div class="content">
+      <h2>
+        San Jos&eacute State University MFA Catalogue 2019-2021
+      </h2>
+      <h3>
+        Overview
+      </h3>
+      <p>
+        At the beginning of their final year at San José State, MFA students in
+        art practice join with MA students in art history to negotiate that
+        strange territory between <i>theoria</i> (thinking),
+        <i>poiesis</i> (making), and <i>praxis</i> (doing). Both groups of
+        students find their own voices through one another’s practices. The
+        essays within these catalogs reflect this temporally determined pairing:
+        the graduate students in art history write about the work of the fine
+        arts students. The visual artists and art historians come together and
+        produce text, image, and object on their own terms; without assignment.
+        Every year in the Spring, the results of this collaborative endeavor
+        result in the publication of the <i>Lift Off</i> catalogue.
+      </p>
+      <h3>
+        Catalogue Preview
+      </h3>
+      <p>
+        (Click image below for embedded PDF view.)
+      </p>
+      <!--<div id="pdf">
+        <object
+          data="https://cdn.glitch.com/26d05cf2-d5d0-4f46-a1a0-95aa126f293c%2FLiftoff-Catalogue_2021-05-26_Pages.pdf?v=1623105776110"
+          type="application/pdf"
+        >
+          <iframe
+            src="https://cdn.glitch.com/26d05cf2-d5d0-4f46-a1a0-95aa126f293c%2FLiftoff-Catalogue_2021-05-26_Pages.pdf?v=1623105776110"
+          ></iframe>
+        </object>
+      </div>-->
+      <a href="https://cdn.glitch.com/26d05cf2-d5d0-4f46-a1a0-95aa126f293c%2FLiftoff-Catalogue_2021-05-26_Pages.pdf?v=1623105776110">
+        <img class="preview" src="https://cdn.glitch.com/26d05cf2-d5d0-4f46-a1a0-95aa126f293c%2FLiftoff-Catalogue_2021-05-26_contributors.png?v=1623613547592" width="100%">
+      
+      </a>
+      <h3>
+        Download Links
+      </h3>
+      <p>
+        <a
+          href="https://cdn.glitch.com/26d05cf2-d5d0-4f46-a1a0-95aa126f293c%2FLiftoff-Catalogue_2021-05-26_Pages.pdf?v=1623105776110"
+          >Catalogue: Single page format PDF</a
+        >
+        (best for screen readers)<br /><br />
+        <a
+          href="https://cdn.glitch.com/26d05cf2-d5d0-4f46-a1a0-95aa126f293c%2FLiftoff-Catalogue_2021-05-26_Spreads.pdf?v=1623132827673"
+          >Catalogue: Spread format PDF</a
+        >
+        (best for viewing art and page design)<br /><br />
+        <a
+          href="https://cdn.glitch.com/26d05cf2-d5d0-4f46-a1a0-95aa126f293c%2FLiftoff_Brochure_2021-05-26_Spreads.pdf?v=1623195159659"
+          >Brochure</a
+        >
+      </p>
+    </div>
+    <footer class="footer">
+    <p>
+        <a href="https://www.sjsu.edu/art/art_programs/graduate/">SJSU Graduate Programs</a> | 
+        <a href="https://www.instagram.com/sjsuartgalleries/?hl=en">SJSU Thompson Gallery Instagram</a> |
+        <a href="https://www.youtube.com/channel/UCpi75cp-NWNVBQjLKNV48vQ">SJSU Thompson Gallery Youtube</a>
+      </p>
+    </footer>
+  </body>
+</html>
