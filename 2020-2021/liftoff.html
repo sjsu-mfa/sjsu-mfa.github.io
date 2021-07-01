@@ -82,7 +82,10 @@
 		document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
 			var adobeDCView = new AdobeDC.View({clientId: "27d774f9aa384a909d52aa73f3b554fb", divId: "adobe-dc-view"});
 			adobeDCView.previewFile({
-				content:{location: {url: "https://cdn.glitch.com/26d05cf2-d5d0-4f46-a1a0-95aa126f293c%2FLiftoff-Catalogue_2021-05-26_Pages.pdf"}},
+				//single page view
+				//content:{location: {url: "https://cdn.glitch.com/26d05cf2-d5d0-4f46-a1a0-95aa126f293c%2FLiftoff-Catalogue_2021-05-26_Pages.pdf"}},
+				//spread view
+				content:{location: {url: "https://sjsu-mfa.github.io/2020-2021/assets/Liftoff-Catalogue_2021-06-15_Spreads-web.pdf"}},
 				metaData:{fileName: "SJSU MFA Catalogue Spring 2021.pdf"}
 			}, {embedMode: "IN_LINE"});
 		});
