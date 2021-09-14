@@ -130,8 +130,20 @@ body {
   flex: 50%;
 }
 
+.row3 {
+  padding: 0px;
+  flex: 25%;
+}
+
+.row4 {
+  padding: 7.5px;
+  flex: 75%;
+}
+
 /*Footer*/
 .footer {
+  display: flex;
+  flex-wrap: wrap;
   background-color: #F8E81A;
   text-align: right;
   padding: 10px;
@@ -168,11 +180,10 @@ object {
 }
 
 .logo-image img{
-height: 40px;
-overflow: hidden;
-float: left;
-padding: 0px 10px 10px;
-
+  height: 40px;
+  overflow: hidden;
+  float: left;
+  padding: 5px;
 }
 
 
@@ -184,16 +195,26 @@ padding: 0px 10px 10px;
     flex-wrap: wrap;
   }
 
-  .topnav a {
+  .topnav a{
     margin: auto;
     width: 100%;
+  }
+
+  .footer {
+    margin: auto;
+    text-align: center;
+  }
+
+  .logo-image img{
+    float: none;
+    margin: auto;
   }
 
   .content {
     width: 100%;
   }
 
-  .row1, .row2 {
+  .row1, .row2, .row3, .row4 {
     flex: 100%;
   }
 
