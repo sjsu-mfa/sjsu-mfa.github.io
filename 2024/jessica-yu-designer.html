@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="This site showcases the work of San Jose State Univeristy MFA graduates from 2019 through 2021."
+    />
+    <title>SJSU MFA Showcase 2024</title>
+    <link rel="stylesheet" href="/2024/style.css" />
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="active" href="/2024/">Home</a>
+      <a href="/2024/catalogue.html"><i>Lift Off</i>&nbsp; Catalogue</a>
+      <a href="/2024/exhibition.html"><i>Lift Off</i>&nbsp; Exhibition</a>
+    </div>
+    <div class="hero">
+      <img
+        src="images/liftoff-24-hero-tmp0.png"
+        width="100%"
+        alt="Image Caption"
+      />
+      <div class="hero-overlay">
+        <h1>
+          Jessica Yu<br /><br />
+          Liftoff Designer<br /><br />
+        </h1>
+      </div>
+<!--
+      <p>
+        <i>Superbloom</i>, <a href="http://alanarios.com/">Alana Rios</a>, 2020.
+        Hand-cut archival inkjet prints. © Alana Rios
+      </p>
+-->
+    </div>
+    <div class="content">
+      <h2>
+        Jessica Yu, BFA Graphic Design, San José State University
+      </h2>
+      <h3>
+        Overview
+      </h3>
+      <p>
+        Insert Bio Here
+      </p>
+
+      <h3>
+        Design Portfolio
+      </h3>
+
+      <div id="adobe-dc-view" style="width: 100%;"></div>
+	<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+	<script type="text/javascript">
+		document.addEventListener("adobe_dc_view_sdk.ready", function(){
+			var adobeDCView = new AdobeDC.View({clientId: "27d774f9aa384a909d52aa73f3b554fb", divId: "adobe-dc-view"});
+			adobeDCView.previewFile({
+				//single page view
+				//content:{location: {url: "https://cdn.glitch.com/26d05cf2-d5d0-4f46-a1a0-95aa126f293c%2FLiftoff-Catalogue_2021-05-26_Pages.pdf"}},
+				//spread view
+				content:{location: {url: "assets/Jessica-Yu-Portfolio.pdf"}},
+				metaData:{fileName: "LiftOff-Postcard-2.pdf"}
+			}, {embedMode: "IN_LINE"});
+		});
+	</script>
+
+<!--       <p>
+        (Click image below for embedded PDF view.)
+      </p> -->
+      <!--<div id="pdf">
+        <object
+          data="https://cdn.glitch.com/26d05cf2-d5d0-4f46-a1a0-95aa126f293c%2FLiftoff-Catalogue_2021-05-26_Pages.pdf?v=1623105776110"
+          type="application/pdf"
+        >
+          <iframe
+            src="https://cdn.glitch.com/26d05cf2-d5d0-4f46-a1a0-95aa126f293c%2FLiftoff-Catalogue_2021-05-26_Pages.pdf?v=1623105776110"
+          ></iframe>
+        </object>
+      </div>-->
+<!--       <a href="https://cdn.glitch.com/26d05cf2-d5d0-4f46-a1a0-95aa126f293c%2FLiftoff-Catalogue_2021-05-26_Pages.pdf?v=1623105776110">
+        <img class="preview" src="https://cdn.glitch.com/26d05cf2-d5d0-4f46-a1a0-95aa126f293c%2FLiftoff-Catalogue_2021-05-26_contributors.png?v=1623613547592" width="100%">
+      </a> -->
+
+    </div>
+    <footer class="footer">
+      <div class="row3">
+        <div class="logo-image"> <img src="images/SJSU-Primary-mark_Web_Black.png" class="img-fluid"></div>
+      </div>
+      <div class="row4">
+        <a href="https://www.sjsu.edu/art/art_programs/graduate/">SJSU Graduate Programs</a> |
+        <a href="https://www.instagram.com/sjsuartgalleries/?hl=en">SJSU Thompson Gallery Instagram</a> |
+        <a href="https://www.youtube.com/channel/UCpi75cp-NWNVBQjLKNV48vQ">SJSU Thompson Gallery Youtube</a>
+      </div>
+    </footer>
+  </body>
+</html>
