@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -21,7 +23,7 @@ body {
 }
 
 .topnav {
-  background-color: #51B5EA;
+  background-color: #0C77BD;
   position: relative;
   display: flex;
   justify-content: flex-end;
@@ -99,12 +101,12 @@ body {
   margin-bottom: -15%;
   font-size:7vw;
   padding: 0px;
-  line-height: 100%;;
+  line-height: 100%;
 }
 
 .hero img {
   height: auto;
-  opacity: .65;
+  opacity: 1;
 }
 
 .hero p {
@@ -119,6 +121,7 @@ body {
 
 /*Main Content*/
 .content {
+  font-family: 'Sarabun', sans-serif;
   position: relative;
   background-color: #FFFFFF;
   padding: 50px;
@@ -126,10 +129,21 @@ body {
   width: 80%;
   max-width: 1000px;
   margin: auto;
+  line-height: 160%;
+}
+
+.content h2{
+    font-family: 'Red Hat Display', sans-serif;
+    line-height: 120%;
 }
 
 .content a {
   color: #000000;
+}
+
+.content a:hover {
+  background-color: #EDE351;
+  color: black;
 }
 
 .preview {
@@ -180,13 +194,18 @@ body {
 .footer {
   display: flex;
   flex-wrap: wrap;
-  background-color: #51B5EA;
+  background-color: #0C77BD;
   text-align: right;
   padding: 10px;
 }
 
 .footer a {
   color: #000000;
+}
+
+.footer a:hover {
+  background-color: #EDE351;
+  color: black;
 }
 
 /*PDF Viewer*/
