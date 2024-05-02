@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500;600;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -58,16 +58,48 @@ body {
 }
 
 .hero-overlay {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
   position: absolute;
   bottom: 0px;
   left: 0px;
   width: 90%;
   text-align: left;
-  margin-left: 50px;
-  margin-bottom: 25px;
-  font-size: 48px;
+  margin-left: 9.4%;
+  margin-bottom: 4.7%;
+  font-size:4vw;
   padding: 0px;
-  line-height: .5;
+  line-height: 100%;
+}
+
+.hero-overlay2 {
+  font-family: 'Helvetica', sans-serif;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 90%;
+  text-align: left;
+  margin-left: 0%;
+  margin-bottom: 0%;
+  font-size:1.8vw;
+  padding: 0px;
+  line-height: 110%;
+}
+
+.hero-overlay3 {
+  font-family: 'Karla', sans-serif;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 90%;
+  text-align: left;
+  margin-left: 65%;
+  margin-bottom: -15%;
+  font-size:7vw;
+  padding: 0px;
+  line-height: 100%;;
 }
 
 .hero img {
@@ -223,9 +255,17 @@ object {
   }
 
   .hero-overlay {
-    font-size: 20px;
-    margin-left: 25px;
-    margin-bottom: 50px;
-    width: auto;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 90%;
+  text-align: left;
+  margin-left: 9.4%;
+  margin-bottom: 4.7%;
+  font-size:4vw;
+  padding: 0px;
+  line-height: 100%;
   }
 }
