@@ -1,0 +1,36 @@
+document.addEventListener("DOMContentLoaded", function() {
+    const container = document.getElementById('issues-container');
+
+    issuesData.forEach(issue => {
+        const issueDiv = document.createElement('div');
+        issueDiv.className = 'issue';
+        issueDiv.textContent = `${issue.number}: ${issue.title} (${issue.date})`;
+        container.appendChild(issueDiv);
+
+        const articlesDiv = document.createElement('div');
+        articlesDiv.className = 'details';
+
+        issue.articles.forEach(article => {
+            const articleDiv = document.createElement('div');
+            articleDiv.className = 'article';
+            articleDiv.innerHTML = `<a href="${article.url}">${article.title}</a> by <a href="${article.authorUrl}">${article.authors}</a>`;
+            articlesDiv.appendChild(articleDiv);
+
+            const abstractDiv = document.createElement('div');
+            abstractDiv.className = 'details';
+            abstractDiv.textContent = article.abstract;
+            articleDiv.appendChild(abstractDiv);
+
+            articleDiv.addEventListener('click', function(e) {
+                e.stopPropagation();
+                abstractDiv.style.display = abstractDiv.style.display === 'none' ? 'block' : 'none';
+            });
+        });
+
+        issueDiv.addEventListener('click', function() {
+            articlesDiv.style.display = articlesDiv.style.display === 'none' ? 'block' : 'none';
+        });
+
+        issueDiv.appendChild(articlesDiv);
+    });
+});
